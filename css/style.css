@@ -23,7 +23,41 @@ body {
   background: none !important;
 }
 
+.fh5co-bg-dark {
+  background: none !important;
+}
+
 .timeline > li > .timeline-badge {
+  background: #23394A !important;
+}
+
+ .tech-skills {
+  list-style-type: none;
+  text-align: center; 
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% 30% 30%;
+}
+
+@media (max-width: 991px) {
+  .tech-skills {
+    grid-template-columns: 40% 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .tech-skills {
+    grid-template-columns: 100%;
+  }
+}
+
+
+::selection {
+  color: white; 
+  background: #48393C !important;
+  /* background: #58473A !important;
+  background: #948C8B !important; */
   background: #23394A !important;
 }
 
