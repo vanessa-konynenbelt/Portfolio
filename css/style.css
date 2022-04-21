@@ -23,6 +23,10 @@ body {
   background: none !important;
 }
 
+.work {
+  background-size: contain !important;
+}
+
 .fh5co-bg-dark {
   background: none !important;
 }
