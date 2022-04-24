@@ -20,6 +20,41 @@ body {
   font-family: "Open Sans",sans-serif;
 }
 
+.description {
+  color: black;
+}
+
+.gh-icon {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  height: 4rem !important;
+  width: 4rem !important;
+  background-color: #23394A;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+.desc {
+  text-align: left;
+}
+
+.skills {
+  padding-top: 1.5rem;
+  padding-inline-start: 0 !important;
+}
+
+.items {
+  list-style: none;
+  text-align: left;
+}
+
+.items img {
+  margin: 0.2rem;
+}
+
 #fh5co-header .overlay, .fh5co-cover .overlay {
   background: none !important;
 }
@@ -94,13 +129,13 @@ body {
 }
 
 a {
-  color: #FF9000;
+  color: #23394A;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FF9000;
+  color: #58473A;
   outline: none;
   text-decoration: none;
 }
